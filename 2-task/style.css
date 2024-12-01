@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.input{
+    display: block;
+    border-radius: 7px;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+form button{
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px 85px;
+    margin-bottom: 30px;
+}
+form{
+    margin-top: 100px;
+}
+.container{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.card p{
+    /* margin-bottom: 10px; */
+    margin-top:5px;
+    /* margin-right:23%; */
+}
+.card{
+    border: 1px solid #000;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+.card :nth-child(2){
+    padding: 2px 15px;
+    border: 1px solid #000;
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 65%;
+    top: 8px;
+}
+.card :nth-child(3){
+    padding: 2px 15px;
+    border: 1px solid #000;
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 82%;
+    top: 8px;
+}
+.tiziq {
+    text-decoration: line-through;
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
+}
+body{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    min-height: 200vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+body::before{
+    content: "";
+    position: absolute;
+    height: 200%;
+    width:100%;
+    background: url(https://i.postimg.cc/MZ7dYZLS/backgrundimg.webp);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+.container{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+form{
+    width: 400px;
+    height: 440px;
+    padding: 30px;
+    border-radius:10px;
+    color: #fff;
+    border: 1px solid #fff;
+    backdrop-filter: blur(7px);
+}
+.inputs input{
+    display: block;
+    background:transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-top: 30px;
+    font-size: 20px;
+    outline:none;
+    color: #fff;
+    width: 100%;
+}
+.chekbox :nth-child(3){
+    margin-left: 30px;
+}
+.chekbox{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 30px;
+}
+button{
+    padding:8px 40px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: 30px;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border: 1px solid #fff;
+}
+.buttons{
+    margin-top:40px;
+    /* gap: 40px; */
+}
+.card{
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #fff;
+    /* width: 20%; */
+    line-height: 30px;
+    margin-top: 30px;
+}
+.wraper{
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
